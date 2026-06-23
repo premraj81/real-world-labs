@@ -1,0 +1,37 @@
+services:
+  - type: web
+    name: real-world-labs
+    runtime: static
+    buildCommand: "true"
+    staticPublishPath: public_html
+    autoDeployTrigger: commit
+    domains:
+      - www.realworldlabs.co.nz
+    routes:
+      - type: redirect
+        source: /Contact.html
+        destination: /contact.html
+      - type: redirect
+        source: /Services.html
+        destination: /services.html
+      - type: redirect
+        source: /About.html
+        destination: /about.html
+      - type: redirect
+        source: /References.html
+        destination: /references.html
+      - type: redirect
+        source: /Disinfectant.html
+        destination: /disinfectants.html
+      - type: redirect
+        source: /Long-Term-Active-Biocides.html
+        destination: /biocides.html
+      - type: redirect
+        source: /Biocide.html
+        destination: /biocides.html
+      - type: redirect
+        source: /Biocides.html
+        destination: /biocides.html
+      - type: redirect
+        source: /We-Work-For.html
+        destination: /clients.html

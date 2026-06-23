@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | Real World Labs</title>
+    <meta name="description" content="Contact Real World Labs for antimicrobial efficacy testing and consultancy." />
+    <link rel="canonical" href="https://www.realworldlabs.co.nz/contact.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <a class="brand" href="index.html" aria-label="Real World Labs home">
+        <img class="brand-logo" src="assets/realworld-logo.png" alt="Real World Labs" />
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="mainNav" aria-label="Main navigation">
+        <a href="services.html">Services</a>
+        <a href="biocides.html">Biocides</a>
+        <a href="disinfectants.html">Disinfectants</a>
+        <a href="clients.html">We Work For</a>
+        <a href="references.html">References</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="header-cta" href="mailto:realworldlabsnz@gmail.com">Email RWL</a>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Contact us</p>
+        <h1>Try us out and make us part of your team.</h1>
+        <p>
+          Tell RWL about your product, surface, testing requirement, standard, or target antimicrobial claim.
+        </p>
+      </section>
+      <section class="contact-section">
+        <div class="contact-copy">
+          <p class="eyebrow">Start a discussion</p>
+          <h2>Affordable R&D screening and testing support.</h2>
+          <p>Send a short note and RWL can help shape a practical next step.</p>
+          <p class="email-list">
+            <a href="mailto:info@realworldlabs.co.nz">info@realworldlabs.co.nz</a>
+            <a href="mailto:realworldlabsnz@gmail.com">realworldlabsnz@gmail.com</a>
+          </p>
+        </div>
+        <form class="contact-form" id="contactForm" action="https://formsubmit.co/realworldlabsnz@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New Real World Labs website enquiry" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="https://www.realworldlabs.co.nz/thank-you.html" />
+          <label>Name<input name="name" autocomplete="name" required /></label>
+          <label>Email<input name="email" type="email" autocomplete="email" required /></label>
+          <label>
+            Service interest
+            <select name="service">
+              <option>Biocide efficacy testing</option>
+              <option>Disinfectant testing</option>
+              <option>Sterility testing</option>
+              <option>Environmental monitoring</option>
+              <option>Technical support and consultancy</option>
+              <option>Bespoke testing</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>Message<textarea name="message" rows="5" required></textarea></label>
+          <button class="button primary full" type="submit">Send enquiry</button>
+          <p class="form-note" id="formNote" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="brand footer-brand" href="index.html">
+        <img class="brand-logo footer-logo" src="assets/realworld-logo.png" alt="Real World Labs" />
+      </a>
+      <span>Antimicrobial efficacy testing and consultancy in New Zealand.</span>
+      <span class="footer-emails"><a href="mailto:info@realworldlabs.co.nz">info@realworldlabs.co.nz</a><a href="mailto:realworldlabsnz@gmail.com">realworldlabsnz@gmail.com</a></span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
