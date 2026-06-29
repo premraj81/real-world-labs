@@ -1307,6 +1307,18 @@ blockquote span {
   font-weight: 800;
 }
 
+.publication-list {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.publication-list li {
+  color: rgba(248, 244, 234, 0.68);
+  line-height: 1.6;
+}
+
 .publications-section {
   padding: clamp(64px, 8vw, 112px) clamp(18px, 5vw, 76px);
   background:
