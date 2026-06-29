@@ -19,11 +19,13 @@ const redirects = {
   "/Contact.html": "/contact.html",
   "/Services.html": "/services.html",
   "/About.html": "/about.html",
-  "/References.html": "/references.html",
+  "/References.html": "/",
+  "/references.html": "/",
   "/Disinfectant.html": "/disinfectants.html",
-  "/Long-Term-Active-Biocides.html": "/biocides.html",
-  "/Biocide.html": "/biocides.html",
-  "/Biocides.html": "/biocides.html",
+  "/Long-Term-Active-Biocides.html": "/disinfectants.html",
+  "/Biocide.html": "/disinfectants.html",
+  "/biocides.html": "/disinfectants.html",
+  "/Biocides.html": "/disinfectants.html",
   "/We-Work-For.html": "/clients.html",
 };
 

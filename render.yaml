@@ -19,19 +19,25 @@ services:
         destination: /about.html
       - type: redirect
         source: /References.html
-        destination: /references.html
+        destination: /
+      - type: redirect
+        source: /references.html
+        destination: /
       - type: redirect
         source: /Disinfectant.html
         destination: /disinfectants.html
       - type: redirect
         source: /Long-Term-Active-Biocides.html
-        destination: /biocides.html
+        destination: /disinfectants.html
       - type: redirect
         source: /Biocide.html
-        destination: /biocides.html
+        destination: /disinfectants.html
+      - type: redirect
+        source: /biocides.html
+        destination: /disinfectants.html
       - type: redirect
         source: /Biocides.html
-        destination: /biocides.html
+        destination: /disinfectants.html
       - type: redirect
         source: /We-Work-For.html
         destination: /clients.html
