@@ -734,8 +734,15 @@ blockquote b {
 }
 
 .mini-testimonial-track {
+  display: grid;
   min-height: 330px;
   border: 0;
+}
+
+.mini-testimonial-track .testimonial-slide {
+  position: relative;
+  grid-area: 1 / 1;
+  min-width: 0;
 }
 
 .mini-testimonial-controls {
